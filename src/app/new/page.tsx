@@ -6,7 +6,7 @@ export default function Page() {
     <>
       <div className="flex flex-col justify-center h-screen">
         <header className="flex justify-center mb-4">
-          <h1 className="border border-slate-500 p-2 mb-2 bg-amber-900 rounded-lg shadow-xl capitalize">
+          <h1 className=" p-2 mb-2 rounded-lg shadow-xl capitalize">
             Add new todo
           </h1>
         </header>
@@ -35,11 +35,11 @@ export default function Page() {
               border  
               border-slate-300
               text-slate-300
-              bg-zinc-800
+              bg-red-700
               px-2
               py-1
               rounded
-              hover:bg-zinc-700
+              hover:bg-red-900
               hover:text-white
               focus-within:bg-slate-700
               outline-none
@@ -53,12 +53,12 @@ export default function Page() {
               border  
               border-slate-300
               text-slate-300
-              bg-zinc-800
+              bg-green-700
               px-2
               py-1
               ml-4
               rounded
-              hover:bg-zinc-700
+              hover:bg-green-900
               hover:text-white
               focus-within:bg-slate-700
               outline-none
