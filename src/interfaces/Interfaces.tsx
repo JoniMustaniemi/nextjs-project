@@ -1,5 +1,3 @@
-import { deleteTodo } from "@/Utils";
-
 export type TodoItemProps = {
   id: string;
   title: string;
