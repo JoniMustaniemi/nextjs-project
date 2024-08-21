@@ -9,7 +9,7 @@ export default async function Home() {
     <>
       <div className="flex justify-center items-center min-h-screen ">
         <div className="w-full max-w-md">
-          <header className="flex justify-between items-center mb-4 border border-slate-500 p-4 bg-amber-900 rounded-lg shadow-xl">
+          <header className="flex justify-between items-center mb-4 border border-slate-500 p-4 bg-amber-700 rounded-lg shadow-xl">
             <h1 className="text-2xl font-semibold text-gray-300">Todos</h1>
             <Link
               className="
